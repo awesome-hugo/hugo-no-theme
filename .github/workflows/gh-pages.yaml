@@ -12,6 +12,9 @@ on:
 jobs:
     deploy:
         runs-on: ubuntu-22.04
+        permissions:
+            contents: write
+            pages: write
         # Ensure that only a single job or workflow
         # https://docs.github.com/en/actions/using-jobs/using-concurrency
         concurrency:
