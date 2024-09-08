@@ -1,0 +1,3 @@
+baseURL = 'https://awesome-hugo.github.io/hugo-no-theme/'
+languageCode = 'en-us'
+title = 'Hugo no Theme'
